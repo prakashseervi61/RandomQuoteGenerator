@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(145, 28, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-box{
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+.search{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+input{
+    padding-left: 15px;
+    padding-right: 50px;
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}

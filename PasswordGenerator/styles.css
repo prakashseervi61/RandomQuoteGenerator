@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #002339;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 12% auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.display {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.display input {
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+  color: #333;
+  background: transparent;
+}
+
+.btn {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option label {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.option input[type="checkbox"],
+.option input[type="number"] {
+  margin-right: 15px;
+  transform: scale(1.2);
+}

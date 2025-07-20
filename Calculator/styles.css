@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.calc{
+    border: 5px solid #555;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 10px auto;
+    max-width: 340px;
+    border-radius: 10px;
+}
+
+.calc input{
+    width: 100%;
+    height: 75px;
+    text-align: right;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    margin: 10px 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.zero{
+    flex-basis: 150px;
+}
+
+.buttons button{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10%;
+    border: none;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+}
+
+.red{
+    background-color: #f44336;
+    color: white;
+}
+
+.red:hover{
+    background-color: #d32f2f;
+}
+
+.yellow{
+    background-color: #ffee5a;
+    color: black;
+}
+
+.yellow:hover{
+    background-color: #fdd835;
+}
+
+.green{
+    background-color: #4caf50;
+    color: white;
+}
+
+.green:hover{
+    background-color: #388e3c;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+@media (max-width: 480px) {
+    .calc {
+        transform: scale(0.8);  /* Shrinks the whole calculator */
+        transform-origin: top center;  /* Keeps it centered from the top */
+    }
+}
